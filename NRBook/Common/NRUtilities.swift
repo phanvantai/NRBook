@@ -1,6 +1,6 @@
 //
-//  Utilities.swift
-//  Utilities
+//  NRUtilities.swift
+//  NRUtilities
 //
 //  Created by Tai Phan Van on 13/08/2021.
 //  Copyright © 2021 november-rain. All rights reserved.

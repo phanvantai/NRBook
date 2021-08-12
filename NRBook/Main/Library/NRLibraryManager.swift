@@ -29,7 +29,7 @@ class NRLibraryManager {
                                                          "\(kProgress) \(DatabaseType.INTEGER.rawValue)," +
                                                          "\(kInsertTime) \(DatabaseType.REAL.rawValue)," +
                                                          "\(kBookPath) \(DatabaseType.TEXT.rawValue))"
-        let success = DatabaseManager.shared.executeUpdate(sql, values: nil)
+        let success = NRDBManager.shared.executeUpdate(sql, values: nil)
         if success {
             hasCreated = true
             DebugLog("Bookshelf table creat succeed")
@@ -49,43 +49,43 @@ class NRLibraryManager {
         let sql = "INSERT INTO \(kTableName)" + "(\(kCoverImage), \(kBookName), \(kAuthorName), \(kInsertTime), \(kProgress), \(kBookPath))" + "VALUES (?,?,?,?,?,?)"
         let imgData = book.coverImage?.jpegData(compressionQuality: 0.8)
         let values: [Any] = [imgData ?? NSNull(), book.bookName, book.authorName ?? NSNull(), book.insertTime, book.progress, book.bookPath]
-        let success = DatabaseManager.shared.executeUpdate(sql, values: values)
+        let success = NRDBManager.shared.executeUpdate(sql, values: values)
         if !success {
             DebugLog("Insert failed")
         } else {
             DebugLog("Insert succeed")
         }
-        DatabaseManager.shared.close()
+        NRDBManager.shared.close()
     }
     
     class func deleteBook(_ book: NRBookModel) {
         self.creatBookshelfTableIfNeeded()
         let sql = "DELETE FROM \(kTableName) WHERE \(kBookName) = ? AND \(kBookPath) = ?"
-        let success = DatabaseManager.shared.executeUpdate(sql, values: [book.bookName, book.bookPath])
+        let success = NRDBManager.shared.executeUpdate(sql, values: [book.bookName, book.bookPath])
         if !success {
             DebugLog("Delete failed")
         } else {
             DebugLog("Delete succeed")
         }
-        DatabaseManager.shared.close()
+        NRDBManager.shared.close()
     }
     
     class func updateBookPregress(_ progress: Int, bookPath: String) {
         self.creatBookshelfTableIfNeeded()
         let sql = "UPDATE \(kTableName) SET \(kProgress) = ? WHERE \(kBookPath) = ?"
-        let success = DatabaseManager.shared.executeUpdate(sql, values: [progress, bookPath])
+        let success = NRDBManager.shared.executeUpdate(sql, values: [progress, bookPath])
         if !success {
             DebugLog("Update failed")
         } else {
             DebugLog("Update succeed")
         }
-        DatabaseManager.shared.close()
+        NRDBManager.shared.close()
     }
     
     class func loadBookWithPath(_ path: String, completion: (NRBookModel?, Error?) -> Void) {
         self.creatBookshelfTableIfNeeded()
         let sql = "SELECT * FROM \(kTableName) WHERE \(kBookPath) = ?"
-        DatabaseManager.shared.executeQuery(sql, values: [path]) {
+        NRDBManager.shared.executeQuery(sql, values: [path]) {
             guard let resultSet = $0 else { completion(nil, $1); return }
             var bookList = [NRBookModel]()
             while resultSet.next() {
@@ -100,13 +100,13 @@ class NRLibraryManager {
             }
             completion(bookList.first, nil)
         }
-        DatabaseManager.shared.close()
+        NRDBManager.shared.close()
     }
     
     class func loadBookList(completion: ([NRBookModel]?, Error?) -> Void) {
         self.creatBookshelfTableIfNeeded()
         let sql = "SELECT * FROM \(kTableName) ORDER BY \(kInsertTime) DESC"
-        DatabaseManager.shared.executeQuery(sql, values: nil) {
+        NRDBManager.shared.executeQuery(sql, values: nil) {
             guard let resultSet = $0 else { completion(nil, $1); return }
             var bookList = [NRBookModel]()
             while resultSet.next() {
@@ -121,6 +121,6 @@ class NRLibraryManager {
             }
             completion(bookList, nil)
         }
-        DatabaseManager.shared.close()
+        NRDBManager.shared.close()
     }
 }

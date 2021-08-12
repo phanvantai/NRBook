@@ -1,6 +1,6 @@
 //
 //  DatabaseManager.swift
-//  DatabaseManager
+//  NRDBManager
 //
 //  Created by Tai Phan Van on 13/08/2021.
 //  Copyright © 2021 november-rain. All rights reserved.
@@ -44,8 +44,8 @@ enum DatabaseType: String {
     case BLOB    = "BLOB"
 }
 
-class DatabaseManager: NSObject {
-    static let shared: DatabaseManager = DatabaseManager()
+class NRDBManager: NSObject {
+    static let shared: NRDBManager = NRDBManager()
     
     lazy var fmdbQueue: FMDatabaseQueue? = {
         var dbPath = DOCUMENT_DIRECTORY_PATH

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class NRLibraryVC: UIViewController {
+class NRLibraryVC: NRBaseVC {
     
     override func viewDidLoad() {
         super.viewDidLoad()
