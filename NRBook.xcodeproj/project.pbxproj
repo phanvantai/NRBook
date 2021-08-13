@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		022A6D7CBB638051783336D6 /* libPods-NRBookUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0338711ED17E6EB0884864D8 /* libPods-NRBookUITests.a */; };
+		D171131126C6E5E100FBC134 /* NRBookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D171131026C6E5E100FBC134 /* NRBookCell.swift */; };
+		D171131326C6E80000FBC134 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D171131226C6E80000FBC134 /* EmptyView.swift */; };
+		D171131526C6E8B400FBC134 /* NRReaderConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D171131426C6E8B400FBC134 /* NRReaderConfig.swift */; };
 		D1C4CFA726C5875300A0AAE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C4CFA626C5875300A0AAE8 /* AppDelegate.swift */; };
 		D1C4CFB026C5875500A0AAE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1C4CFAF26C5875500A0AAE8 /* Assets.xcassets */; };
 		D1C4CFB326C5875500A0AAE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1C4CFB126C5875500A0AAE8 /* LaunchScreen.storyboard */; };
@@ -15,7 +18,6 @@
 		D1C4CFC826C5875500A0AAE8 /* NRBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C4CFC726C5875500A0AAE8 /* NRBookUITests.swift */; };
 		D1C4CFDA26C58EE400A0AAE8 /* alice.epub in Resources */ = {isa = PBXBuildFile; fileRef = D1C4CFD726C58EE400A0AAE8 /* alice.epub */; };
 		D1C4CFDB26C58EE400A0AAE8 /* chair.epub in Resources */ = {isa = PBXBuildFile; fileRef = D1C4CFD826C58EE400A0AAE8 /* chair.epub */; };
-		D1C4CFDC26C58EE400A0AAE8 /* NFR3.epub in Resources */ = {isa = PBXBuildFile; fileRef = D1C4CFD926C58EE400A0AAE8 /* NFR3.epub */; };
 		D1C4CFE726C5913300A0AAE8 /* UIControl+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C4CFE626C5913300A0AAE8 /* UIControl+Extensions.swift */; };
 		D1C4CFE926C5916A00A0AAE8 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C4CFE826C5916A00A0AAE8 /* UIColor+Extensions.swift */; };
 		D1C4CFEB26C5919D00A0AAE8 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C4CFEA26C5919D00A0AAE8 /* UIView+Extensions.swift */; };
@@ -74,6 +76,9 @@
 		501E4BE70984D06472E89892 /* Pods-NRBookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NRBookTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NRBookTests/Pods-NRBookTests.release.xcconfig"; sourceTree = "<group>"; };
 		A9E4B0C3AB5054F7FC42B7DC /* Pods-NRBookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NRBookUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NRBookUITests/Pods-NRBookUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BA72934363BFF8268E76D293 /* Pods-NRBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NRBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-NRBook/Pods-NRBook.release.xcconfig"; sourceTree = "<group>"; };
+		D171131026C6E5E100FBC134 /* NRBookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NRBookCell.swift; sourceTree = "<group>"; };
+		D171131226C6E80000FBC134 /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
+		D171131426C6E8B400FBC134 /* NRReaderConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NRReaderConfig.swift; sourceTree = "<group>"; };
 		D1C4CFA326C5875300A0AAE8 /* NRBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NRBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1C4CFA626C5875300A0AAE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1C4CFAF26C5875500A0AAE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -85,7 +90,6 @@
 		D1C4CFC726C5875500A0AAE8 /* NRBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NRBookUITests.swift; sourceTree = "<group>"; };
 		D1C4CFD726C58EE400A0AAE8 /* alice.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = alice.epub; sourceTree = "<group>"; };
 		D1C4CFD826C58EE400A0AAE8 /* chair.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = chair.epub; sourceTree = "<group>"; };
-		D1C4CFD926C58EE400A0AAE8 /* NFR3.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = NFR3.epub; sourceTree = "<group>"; };
 		D1C4CFE626C5913300A0AAE8 /* UIControl+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+Extensions.swift"; sourceTree = "<group>"; };
 		D1C4CFE826C5916A00A0AAE8 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		D1C4CFEA26C5919D00A0AAE8 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
@@ -227,7 +231,6 @@
 			children = (
 				D1C4CFD726C58EE400A0AAE8 /* alice.epub */,
 				D1C4CFD826C58EE400A0AAE8 /* chair.epub */,
-				D1C4CFD926C58EE400A0AAE8 /* NFR3.epub */,
 			);
 			path = EpubSample;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 		D1C4CFDF26C58FF300A0AAE8 /* NRReader */ = {
 			isa = PBXGroup;
 			children = (
+				D171131426C6E8B400FBC134 /* NRReaderConfig.swift */,
 			);
 			path = NRReader;
 			sourceTree = "<group>";
@@ -268,6 +272,7 @@
 				D1C4CFF026C5927400A0AAE8 /* NRLibraryVC.swift */,
 				D1C4D01626C5981400A0AAE8 /* NRLibraryManager.swift */,
 				D1C4D01826C5985300A0AAE8 /* NRBookModel.swift */,
+				D171131026C6E5E100FBC134 /* NRBookCell.swift */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -316,6 +321,7 @@
 			isa = PBXGroup;
 			children = (
 				D1EDE8B726C5A34100D86264 /* NRBaseVC.swift */,
+				D171131226C6E80000FBC134 /* EmptyView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -444,7 +450,6 @@
 			files = (
 				D1C4CFDB26C58EE400A0AAE8 /* chair.epub in Resources */,
 				D1C4CFB326C5875500A0AAE8 /* LaunchScreen.storyboard in Resources */,
-				D1C4CFDC26C58EE400A0AAE8 /* NFR3.epub in Resources */,
 				D1C4CFB026C5875500A0AAE8 /* Assets.xcassets in Resources */,
 				D1C4CFDA26C58EE400A0AAE8 /* alice.epub in Resources */,
 			);
@@ -564,6 +569,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D171131526C6E8B400FBC134 /* NRReaderConfig.swift in Sources */,
 				D1C4D00A26C5972500A0AAE8 /* FRTocReference.swift in Sources */,
 				D1C4CFE726C5913300A0AAE8 /* UIControl+Extensions.swift in Sources */,
 				D1C4CFEF26C591F200A0AAE8 /* String+Extensions.swift in Sources */,
@@ -580,6 +586,7 @@
 				D1C4CFA726C5875300A0AAE8 /* AppDelegate.swift in Sources */,
 				D1C4D01226C5972500A0AAE8 /* FRSmilElement.swift in Sources */,
 				D1EDE8B526C5A22900D86264 /* NRConstants.swift in Sources */,
+				D171131326C6E80000FBC134 /* EmptyView.swift in Sources */,
 				D1C4D01026C5972500A0AAE8 /* FRResource.swift in Sources */,
 				D1C4CFF626C594BA00A0AAE8 /* ActivityItemProvider.swift in Sources */,
 				D1C4CFF426C5949300A0AAE8 /* Activity.swift in Sources */,
@@ -588,6 +595,7 @@
 				D1C4D00826C5972500A0AAE8 /* FREpubParser.swift in Sources */,
 				D1C4D01726C5981400A0AAE8 /* NRLibraryManager.swift in Sources */,
 				D1C4CFE926C5916A00A0AAE8 /* UIColor+Extensions.swift in Sources */,
+				D171131126C6E5E100FBC134 /* NRBookCell.swift in Sources */,
 				D1C4D00926C5972500A0AAE8 /* FRParseError.swift in Sources */,
 				D1EDE8B826C5A34100D86264 /* NRBaseVC.swift in Sources */,
 				D1C4D01126C5972500A0AAE8 /* FRMediaType.swift in Sources */,
