@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8CC7E0367203A8B5589759BE /* libPods-NRBookTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFBDE89B95CE72AA984FE0C /* libPods-NRBookTests.a */; };
-		9DBD3BA926861AD034760D56 /* libPods-NRBook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A47D0965473893966C076082 /* libPods-NRBook.a */; };
+		022A6D7CBB638051783336D6 /* libPods-NRBookUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0338711ED17E6EB0884864D8 /* libPods-NRBookUITests.a */; };
 		D1C4CFA726C5875300A0AAE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C4CFA626C5875300A0AAE8 /* AppDelegate.swift */; };
 		D1C4CFB026C5875500A0AAE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1C4CFAF26C5875500A0AAE8 /* Assets.xcassets */; };
 		D1C4CFB326C5875500A0AAE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1C4CFB126C5875500A0AAE8 /* LaunchScreen.storyboard */; };
@@ -44,7 +43,8 @@
 		D1C4D01926C5985300A0AAE8 /* NRBookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C4D01826C5985300A0AAE8 /* NRBookModel.swift */; };
 		D1EDE8B526C5A22900D86264 /* NRConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EDE8B426C5A22900D86264 /* NRConstants.swift */; };
 		D1EDE8B826C5A34100D86264 /* NRBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EDE8B726C5A34100D86264 /* NRBaseVC.swift */; };
-		D54B1A4E38C519174CA31CF4 /* libPods-NRBookUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F0B8B5E2FB5F32B574184E5 /* libPods-NRBookUITests.a */; };
+		D6270F83709FB5382135ED24 /* libPods-NRBookTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3028E039C2D5E9AB7D61B849 /* libPods-NRBookTests.a */; };
+		E80FF4643683D7405126C4CD /* libPods-NRBook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3EA84E64EAB88B56F83737 /* libPods-NRBook.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,15 +65,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		34BD2B0438CC6F18609E1A96 /* Pods-NRBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NRBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NRBook/Pods-NRBook.debug.xcconfig"; sourceTree = "<group>"; };
-		35CD44AD9EABBAE4F17BD3F0 /* Pods-NRBookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NRBookUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NRBookUITests/Pods-NRBookUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		4E0031C7B9D70943EB24D0CC /* Pods-NRBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NRBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-NRBook/Pods-NRBook.release.xcconfig"; sourceTree = "<group>"; };
-		5F0B8B5E2FB5F32B574184E5 /* libPods-NRBookUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NRBookUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6CFBDE89B95CE72AA984FE0C /* libPods-NRBookTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NRBookTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C91EF41ABF7EF3338903742 /* Pods-NRBookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NRBookTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NRBookTests/Pods-NRBookTests.debug.xcconfig"; sourceTree = "<group>"; };
-		8E2DDB2169832A87724525CC /* Pods-NRBookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NRBookUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NRBookUITests/Pods-NRBookUITests.release.xcconfig"; sourceTree = "<group>"; };
-		9593C3A833DC9C0FF047173A /* Pods-NRBookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NRBookTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NRBookTests/Pods-NRBookTests.release.xcconfig"; sourceTree = "<group>"; };
-		A47D0965473893966C076082 /* libPods-NRBook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NRBook.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0338711ED17E6EB0884864D8 /* libPods-NRBookUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NRBookUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		050C87B933D1510EE7FF6810 /* Pods-NRBookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NRBookUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NRBookUITests/Pods-NRBookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2C50529079AD1D00A086093F /* Pods-NRBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NRBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NRBook/Pods-NRBook.debug.xcconfig"; sourceTree = "<group>"; };
+		3028E039C2D5E9AB7D61B849 /* libPods-NRBookTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NRBookTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		431B183EC800B6C5BB84716B /* Pods-NRBookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NRBookTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NRBookTests/Pods-NRBookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A3EA84E64EAB88B56F83737 /* libPods-NRBook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NRBook.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		501E4BE70984D06472E89892 /* Pods-NRBookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NRBookTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NRBookTests/Pods-NRBookTests.release.xcconfig"; sourceTree = "<group>"; };
+		A9E4B0C3AB5054F7FC42B7DC /* Pods-NRBookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NRBookUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NRBookUITests/Pods-NRBookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA72934363BFF8268E76D293 /* Pods-NRBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NRBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-NRBook/Pods-NRBook.release.xcconfig"; sourceTree = "<group>"; };
 		D1C4CFA326C5875300A0AAE8 /* NRBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NRBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1C4CFA626C5875300A0AAE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1C4CFAF26C5875500A0AAE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -120,7 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DBD3BA926861AD034760D56 /* libPods-NRBook.a in Frameworks */,
+				E80FF4643683D7405126C4CD /* libPods-NRBook.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CC7E0367203A8B5589759BE /* libPods-NRBookTests.a in Frameworks */,
+				D6270F83709FB5382135ED24 /* libPods-NRBookTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,32 +136,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D54B1A4E38C519174CA31CF4 /* libPods-NRBookUITests.a in Frameworks */,
+				022A6D7CBB638051783336D6 /* libPods-NRBookUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4C8EAE6046071D7812C4CD76 /* Pods */ = {
+		2E01C78D0D4E1AFC94F62ABA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				34BD2B0438CC6F18609E1A96 /* Pods-NRBook.debug.xcconfig */,
-				4E0031C7B9D70943EB24D0CC /* Pods-NRBook.release.xcconfig */,
-				7C91EF41ABF7EF3338903742 /* Pods-NRBookTests.debug.xcconfig */,
-				9593C3A833DC9C0FF047173A /* Pods-NRBookTests.release.xcconfig */,
-				35CD44AD9EABBAE4F17BD3F0 /* Pods-NRBookUITests.debug.xcconfig */,
-				8E2DDB2169832A87724525CC /* Pods-NRBookUITests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		BD01AAAFA6DEAF919435B497 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A47D0965473893966C076082 /* libPods-NRBook.a */,
-				6CFBDE89B95CE72AA984FE0C /* libPods-NRBookTests.a */,
-				5F0B8B5E2FB5F32B574184E5 /* libPods-NRBookUITests.a */,
+				4A3EA84E64EAB88B56F83737 /* libPods-NRBook.a */,
+				3028E039C2D5E9AB7D61B849 /* libPods-NRBookTests.a */,
+				0338711ED17E6EB0884864D8 /* libPods-NRBookUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -173,8 +160,8 @@
 				D1C4CFBC26C5875500A0AAE8 /* NRBookTests */,
 				D1C4CFC626C5875500A0AAE8 /* NRBookUITests */,
 				D1C4CFA426C5875300A0AAE8 /* Products */,
-				4C8EAE6046071D7812C4CD76 /* Pods */,
-				BD01AAAFA6DEAF919435B497 /* Frameworks */,
+				D7D352DD19FCFE1629147D0D /* Pods */,
+				2E01C78D0D4E1AFC94F62ABA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -333,6 +320,19 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		D7D352DD19FCFE1629147D0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C50529079AD1D00A086093F /* Pods-NRBook.debug.xcconfig */,
+				BA72934363BFF8268E76D293 /* Pods-NRBook.release.xcconfig */,
+				431B183EC800B6C5BB84716B /* Pods-NRBookTests.debug.xcconfig */,
+				501E4BE70984D06472E89892 /* Pods-NRBookTests.release.xcconfig */,
+				A9E4B0C3AB5054F7FC42B7DC /* Pods-NRBookUITests.debug.xcconfig */,
+				050C87B933D1510EE7FF6810 /* Pods-NRBookUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -340,11 +340,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1C4CFCB26C5875500A0AAE8 /* Build configuration list for PBXNativeTarget "NRBook" */;
 			buildPhases = (
-				34F562AA759DEE9A81BBD13B /* [CP] Check Pods Manifest.lock */,
+				7C5A759AEC2DC1866E367593 /* [CP] Check Pods Manifest.lock */,
 				D1C4CF9F26C5875300A0AAE8 /* Sources */,
 				D1C4CFA026C5875300A0AAE8 /* Frameworks */,
 				D1C4CFA126C5875300A0AAE8 /* Resources */,
-				5AD25C5A5E9EFAE374963543 /* [CP] Copy Pods Resources */,
+				E65C42A8856A71E4046DB32D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -359,7 +359,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1C4CFCE26C5875500A0AAE8 /* Build configuration list for PBXNativeTarget "NRBookTests" */;
 			buildPhases = (
-				0089FC9DF6A90DDBDD978F1C /* [CP] Check Pods Manifest.lock */,
+				95094ADAFDE4FBD285B183B2 /* [CP] Check Pods Manifest.lock */,
 				D1C4CFB526C5875500A0AAE8 /* Sources */,
 				D1C4CFB626C5875500A0AAE8 /* Frameworks */,
 				D1C4CFB726C5875500A0AAE8 /* Resources */,
@@ -378,7 +378,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1C4CFD126C5875500A0AAE8 /* Build configuration list for PBXNativeTarget "NRBookUITests" */;
 			buildPhases = (
-				B2228601875F17293D5C5CCB /* [CP] Check Pods Manifest.lock */,
+				734822AECF18DA1C6A3FE186 /* [CP] Check Pods Manifest.lock */,
 				D1C4CFBF26C5875500A0AAE8 /* Sources */,
 				D1C4CFC026C5875500A0AAE8 /* Frameworks */,
 				D1C4CFC126C5875500A0AAE8 /* Resources */,
@@ -467,7 +467,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0089FC9DF6A90DDBDD978F1C /* [CP] Check Pods Manifest.lock */ = {
+		734822AECF18DA1C6A3FE186 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -482,14 +482,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NRBookTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-NRBookUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		34F562AA759DEE9A81BBD13B /* [CP] Check Pods Manifest.lock */ = {
+		7C5A759AEC2DC1866E367593 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -511,7 +511,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5AD25C5A5E9EFAE374963543 /* [CP] Copy Pods Resources */ = {
+		95094ADAFDE4FBD285B183B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NRBookTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E65C42A8856A71E4046DB32D /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -533,28 +555,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NRBook/Pods-NRBook-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B2228601875F17293D5C5CCB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NRBookUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -756,7 +756,7 @@
 		};
 		D1C4CFCC26C5875500A0AAE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34BD2B0438CC6F18609E1A96 /* Pods-NRBook.debug.xcconfig */;
+			baseConfigurationReference = 2C50529079AD1D00A086093F /* Pods-NRBook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -769,7 +769,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -785,7 +785,7 @@
 		};
 		D1C4CFCD26C5875500A0AAE8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E0031C7B9D70943EB24D0CC /* Pods-NRBook.release.xcconfig */;
+			baseConfigurationReference = BA72934363BFF8268E76D293 /* Pods-NRBook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -798,7 +798,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -814,7 +814,7 @@
 		};
 		D1C4CFCF26C5875500A0AAE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C91EF41ABF7EF3338903742 /* Pods-NRBookTests.debug.xcconfig */;
+			baseConfigurationReference = 431B183EC800B6C5BB84716B /* Pods-NRBookTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -840,7 +840,7 @@
 		};
 		D1C4CFD026C5875500A0AAE8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9593C3A833DC9C0FF047173A /* Pods-NRBookTests.release.xcconfig */;
+			baseConfigurationReference = 501E4BE70984D06472E89892 /* Pods-NRBookTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -866,7 +866,7 @@
 		};
 		D1C4CFD226C5875500A0AAE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35CD44AD9EABBAE4F17BD3F0 /* Pods-NRBookUITests.debug.xcconfig */;
+			baseConfigurationReference = A9E4B0C3AB5054F7FC42B7DC /* Pods-NRBookUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -890,7 +890,7 @@
 		};
 		D1C4CFD326C5875500A0AAE8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E2DDB2169832A87724525CC /* Pods-NRBookUITests.release.xcconfig */;
+			baseConfigurationReference = 050C87B933D1510EE7FF6810 /* Pods-NRBookUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

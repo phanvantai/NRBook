@@ -1,12 +1,12 @@
 # Uncomment the next line to define a global platform for your project
-platform :ios, '11.0'
+platform :ios, '12.0'
 
 workspace 'NRBook.xcworkspace'
 
 # local pods
 def local_pods
-  pod 'DTCoreText', :path => './DTCoreText', :modular_headers => true
-  pod 'DTFoundation', :path => './DTFoundation', :modular_headers => true
+  pod 'DTCoreText', :path => './LocalPods/DTCoreText', :modular_headers => true
+  pod 'DTFoundation', :path => './LocalPods/DTFoundation', :modular_headers => true
 end
 
 # shared pods
@@ -44,8 +44,8 @@ end
 post_install do |installer|
     installer.pods_project.targets.each do |target|
         target.build_configurations.each do |config|
-            if config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'].to_f < 11.0
-                config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '11.0'
+            if config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'].to_f < 12.0
+                config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '12.0'
             end
         end
     end
