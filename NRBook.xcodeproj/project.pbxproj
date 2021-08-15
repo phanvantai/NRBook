@@ -11,6 +11,9 @@
 		D171131126C6E5E100FBC134 /* NRBookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D171131026C6E5E100FBC134 /* NRBookCell.swift */; };
 		D171131326C6E80000FBC134 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D171131226C6E80000FBC134 /* EmptyView.swift */; };
 		D171131526C6E8B400FBC134 /* NRReaderConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D171131426C6E8B400FBC134 /* NRReaderConfig.swift */; };
+		D176005D26C9612B00A11841 /* NRRecordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D176005C26C9612B00A11841 /* NRRecordModel.swift */; };
+		D176005F26C9616200A11841 /* NRRecordManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D176005E26C9616200A11841 /* NRRecordManager.swift */; };
+		D176006126C962AD00A11841 /* NRBookPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D176006026C962AD00A11841 /* NRBookPage.swift */; };
 		D1C4CFA726C5875300A0AAE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C4CFA626C5875300A0AAE8 /* AppDelegate.swift */; };
 		D1C4CFB026C5875500A0AAE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1C4CFAF26C5875500A0AAE8 /* Assets.xcassets */; };
 		D1C4CFB326C5875500A0AAE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1C4CFB126C5875500A0AAE8 /* LaunchScreen.storyboard */; };
@@ -79,6 +82,9 @@
 		D171131026C6E5E100FBC134 /* NRBookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NRBookCell.swift; sourceTree = "<group>"; };
 		D171131226C6E80000FBC134 /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
 		D171131426C6E8B400FBC134 /* NRReaderConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NRReaderConfig.swift; sourceTree = "<group>"; };
+		D176005C26C9612B00A11841 /* NRRecordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NRRecordModel.swift; sourceTree = "<group>"; };
+		D176005E26C9616200A11841 /* NRRecordManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NRRecordManager.swift; sourceTree = "<group>"; };
+		D176006026C962AD00A11841 /* NRBookPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NRBookPage.swift; sourceTree = "<group>"; };
 		D1C4CFA326C5875300A0AAE8 /* NRBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NRBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1C4CFA626C5875300A0AAE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1C4CFAF26C5875500A0AAE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -155,6 +161,15 @@
 				0338711ED17E6EB0884864D8 /* libPods-NRBookUITests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D176005B26C9611100A11841 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				D176005C26C9612B00A11841 /* NRRecordModel.swift */,
+				D176005E26C9616200A11841 /* NRRecordManager.swift */,
+			);
+			path = Record;
 			sourceTree = "<group>";
 		};
 		D1C4CF9A26C5875300A0AAE8 = {
@@ -261,7 +276,9 @@
 		D1C4CFDF26C58FF300A0AAE8 /* NRReader */ = {
 			isa = PBXGroup;
 			children = (
+				D176005B26C9611100A11841 /* Record */,
 				D171131426C6E8B400FBC134 /* NRReaderConfig.swift */,
+				D176006026C962AD00A11841 /* NRBookPage.swift */,
 			);
 			path = NRReader;
 			sourceTree = "<group>";
@@ -578,6 +595,7 @@
 				D1C4CFFA26C595DC00A0AAE8 /* NRUtilities.swift in Sources */,
 				D1C4D01926C5985300A0AAE8 /* NRBookModel.swift in Sources */,
 				D1C4CFEB26C5919D00A0AAE8 /* UIView+Extensions.swift in Sources */,
+				D176006126C962AD00A11841 /* NRBookPage.swift in Sources */,
 				D1C4CFED26C591C700A0AAE8 /* UIImage+Extensions.swift in Sources */,
 				D1C4D01526C597A300A0AAE8 /* NRDBManager.swift in Sources */,
 				D1C4D01326C5972500A0AAE8 /* FRMetadata.swift in Sources */,
@@ -599,7 +617,9 @@
 				D1C4D00926C5972500A0AAE8 /* FRParseError.swift in Sources */,
 				D1EDE8B826C5A34100D86264 /* NRBaseVC.swift in Sources */,
 				D1C4D01126C5972500A0AAE8 /* FRMediaType.swift in Sources */,
+				D176005D26C9612B00A11841 /* NRRecordModel.swift in Sources */,
 				D1C4D00C26C5972500A0AAE8 /* FRSpine.swift in Sources */,
+				D176005F26C9616200A11841 /* NRRecordManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
